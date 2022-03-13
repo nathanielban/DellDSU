@@ -48,7 +48,7 @@ if (!(Test-Path "$DSUPath\DSU.exe") -or ($null -ne $installed)) {
         Write-Host "Recent inventory file found, proceeding with cached file... `n"
         Write-Host "Inventory File:" $complianceJSONPath
         Write-Host $filesize "KB file generated @" ($creationTime) "`n"
- 
+
     }
       
     $compliance = Get-Content $complianceJSONPath | ConvertFrom-Json
