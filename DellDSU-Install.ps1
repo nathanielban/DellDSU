@@ -7,7 +7,7 @@
 	 Filename:     	DellDSU-Install.ps1
 	===========================================================================
 	.DESCRIPTION
-		Dell EMC Command Update - Install Script. Installs the current version of Dell EMC Server Update from the web. 
+		Dell EMC System Update - Install Script. Installs the current version of Dell EMC Server Update from the web. 
 #>
 
 #Force TLS 1.2 on older systems

@@ -7,7 +7,7 @@
 	 Filename:     	DellDSU-InstallUpdatesSilently.ps1
 	===========================================================================
 	.DESCRIPTION
-		Dell EMC Command Update - Update Install Script. Install all updates currently out of compliance with Dell's baseline.
+		Dell EMC System Update - Update Install Script. Install all updates currently out of compliance with Dell's baseline.
 #>
 
 #Pull information about DSU install from registry:

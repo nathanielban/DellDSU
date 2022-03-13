@@ -7,7 +7,7 @@
 	 Filename:     	DellDSU-CheckCompliance.ps1
 	===========================================================================
 	.DESCRIPTION
-		Dell EMC Command Update - Update Compliance Check Script. Compares system to Dell's current baseline and returns counts of missing update types for external use.
+		Dell EMC System Update - Update Compliance Check Script. Compares system to Dell's current baseline and returns counts of missing update types for external use.
 #>
 
 #Pull information about DSU install from registry:
